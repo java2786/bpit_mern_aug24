@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header .container{
+    width: 60%;
+    margin: 20px auto;
+}
+
+header .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .row .logo{
+    color: #0e638a;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header .container .row .logo span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00b8b9;
+    color: white;
+}
+
+header .container .row .search input{
+    background-color: #f7f7f7;
+    font-size: 12px;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px 5px 10px 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+header .container .row .search{
+    position: relative;
+}
+header .container .row .search i{
+    position: absolute;
+    padding-top: 17px;
+    padding-left: 5px;
+}
+
+header .container .row .btn button{
+    background-color: #00b8b9;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+}
+header .container .row .btn button:hover{
+    color: #00b8b9;
+    background-color: white;
+    border: 1px solid #00b8b9;
+    box-shadow: 0 0 5px 1px red;
+}
+
+
+header .container .row .cart-icon{
+    color: rgb(168, 168, 216);
+}
+
+
+div.separtor{
+    border-bottom: 2px solid rgb(207, 203, 203);
+    margin-bottom: 50px;
+}
+
+section .container .sale-container{
+    background-color: #9bc8cc;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section .container .img-container{
+    width: 80%;
+    margin: 50px auto;    
+}
+
+section .container .img-container img{
+    border-radius: 15px;
+    width: 100%;
+    height: 400px;
+}
+
+.demo{
+    height: 500px;
+    background-image: url('./../images/bnr.webp');
+}
+
+@media screen and (max-width: 750px) {
+    header .container .row .search{
+        display: none;
+    }
+    
+    .demo{
+        background-image: url('./../images/taj.webp');
+    }
+    }
+
